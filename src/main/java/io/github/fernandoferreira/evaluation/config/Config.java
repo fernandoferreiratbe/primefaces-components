@@ -7,4 +7,6 @@ import javax.faces.annotation.FacesConfig;
 @ApplicationScoped
 public class Config {
 
+	/* This class is necessary in order to use dynamic web module 4.0 and JSF */
+	
 }
