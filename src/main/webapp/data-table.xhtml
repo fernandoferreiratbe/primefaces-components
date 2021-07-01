@@ -15,7 +15,7 @@
 		<f:viewAction action="#{studentBean.createStudents}" />
 	</f:metadata>
 	
-	<p:dataTable value="#{studentBean.getStudents()}" var="student" emptyMessage="No records available">
+	<p:dataTable value="#{studentBean.getStudents()}" var="student" emptyMessage="No records available" rows="2" paginator="true">
 
 		<p:column headerText="Full Name">
 			<h:outputText value="#{student.name}" />
